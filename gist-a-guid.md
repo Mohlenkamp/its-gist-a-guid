@@ -50,11 +50,13 @@ Here's the regex expression that we will use to validate a GUID:
 
 Example code:
 
-`const guid = '{21f934b6-6aa8-4425-bad5-4137b0016c8b}';
-const regex = "^[({]?[a-fA-F0-9]{8}[-]?([a-fA-F0-9]{4}[-]?){3}[a-fA-F0-9]{12}[})]?$";
-const match = guid.match(regex);
+`const guid = '{21f934b6-6aa8-4425-bad5-4137b0016c8b}';`
 
-console.log(found);`
+`const regex = "^[({]?[a-fA-F0-9]{8}[-]?([a-fA-F0-9]{4}[-]?){3}[a-fA-F0-9]{12}[})]?$";`
+
+`const match = guid.match(regex);`
+
+`console.log(match);`
 
 Nasty isn't it? Actually, it's not as bad as you might think, and we'll show you why.
 
