@@ -101,7 +101,7 @@ So, using the following input examples:
     Input 1: [Qx99- 
     Input 2: (aBcDeF01 
 
-    Input 1 would be False because it starts with a left bracket, it has an invalid hexadecimal character "Q", and it doesn't have exactly 8 characters.
+    Input 1 would be False because it starts with a left non-curly bracket, it has an invalid hexadecimal character "Q", and it doesn't have exactly 8 characters.
     Input 2 would be True.
 
 ### OR Operator
